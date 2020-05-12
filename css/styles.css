@@ -8,23 +8,32 @@
     margin: 0;
     padding: 0;
 }
-.circle>div {
+.redcircle>div {
     display: inline-block;
     width: 35px;
     height: 35px;
     border-radius: 2px;
-    background:rgba(252, 106, 106, 0.712);
-    animation: move 4s linear 1ms infinite normal running;  
+    animation: movered 4s linear 1ms infinite normal running;  
 }
-@keyframes move {
-    from {transform: translate(140px, 430px) rotate(180deg);}
+@keyframes movered {
+    from {background:rgba(252, 106, 106, 0.712); transform: translate(140px, 430px) rotate(180deg);}
     50% {border-radius: 50%; box-shadow: 0 0 0 0px rgba(241, 164, 159, 0.747);}
     90% {transform: scale(2) translateY(100px) translateX(60px); border-radius: 50%; background: rgba(252, 106, 106, 0.712); box-shadow: 0 0 0 20px rgba(241, 164, 159, 0.747);}
     to {transform: scale(2) translateY(100px) translateX(60px); border-radius: 50%; background: rgba(252, 106, 106, 0.178);  box-shadow: 0 0 0 20px transparent;}
 }
-.circle>div:nth-child(2) {
-    background-color: red;
-    transition-delay: 2s;
+
+.bluecircle>div {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    animation: moveblue 4s linear 1ms infinite normal running;  
+}
+@keyframes moveblue {
+    from {background:rgba(106, 140, 235, 0.712); transform: translate(140px, 430px) rotate(180deg);}
+    50% {border-radius: 50%; box-shadow: 0 0 0 0px rgba(37, 26, 202, 0.747);}
+    90% {transform: scale(2) translateY(100px) translateX(60px); border-radius: 50%; background: rgba(98, 150, 209, 0.712); box-shadow: 0 0 0 20px rgba(119, 109, 209, 0.747);}
+    to {transform: scale(2) translateY(100px) translateX(60px); border-radius: 50%; background: rgba(117, 115, 226, 0.178);  box-shadow: 0 0 0 20px transparent;}
 }
 
 
