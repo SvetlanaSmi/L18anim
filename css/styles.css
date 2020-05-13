@@ -192,7 +192,7 @@
     perspective: 500px;
 }
 .button input {
-    /* display: none;    */
+    display: none;   
 }
 .button label {
     display: inline-block;
