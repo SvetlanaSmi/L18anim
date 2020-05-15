@@ -16,13 +16,13 @@
 }
 .circle>div {
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 21px;
+    height: 21px;
     border-radius: 2px; 
 }
 
 @keyframes animred {
-    0% {transform:  translate(-20px, 280px)  rotate(1deg) scaleX(0.3) scaleY(0.32); background:rgba(252, 106, 106, 0.712);}
+    0% {transform:  translate(-10px, 330px)  rotate(1deg) scaleX(0.3) scaleY(0.32); background:rgba(252, 106, 106, 0.712);}
     33% {transform:  translate(-10px,200px)  rotate(360deg) scaleX(1.23) scaleY(1.22); border-radius: 50%; box-shadow: 0 0 0 0px rgba(241, 164, 159, 0.747);}
     66% {transform:  translate(0px,180px)  rotate(784deg) scaleX(1.72) scaleY(1.71); border-radius: 50%; background: rgba(252, 106, 106, 0.219); box-shadow: 0 0 0 20px rgba(241, 165, 159, 0.158);}
     100% {transform:  translate(10px,110px)  rotate(1070deg) scaleX(3) scaleY(3); border-radius: 50%; background: transparent;  box-shadow: 0 0 0 20px transparent;}
@@ -51,7 +51,7 @@
 }
 
 @keyframes animblue {
-    0% {transform:  translate(-20px, 280px)  rotate(1deg) scaleX(0.3) scaleY(0.32); background:rgba(100, 143, 223, 0.712);}
+    0% {transform:  translate(-10px, 330px)  rotate(1deg) scaleX(0.3) scaleY(0.32); background:rgba(100, 143, 223, 0.712);}
     33% {transform:  translate(-10px,200px)  rotate(360deg) scaleX(1.23) scaleY(1.22); border-radius: 50%; box-shadow: 0 0 0 0px rgba(175, 205, 243, 0.747);}
     66% {transform:  translate(0px,180px)  rotate(784deg) scaleX(1.72) scaleY(1.71); border-radius: 50%; background: rgba(75, 121, 250, 0.219); box-shadow: 0 0 0 20px rgba(140, 208, 247, 0.158);}
     100% {transform:  translate(10px,110px)  rotate(1070deg) scaleX(3) scaleY(3); border-radius: 50%; background: transparent;  box-shadow: 0 0 0 20px transparent;}
@@ -130,7 +130,7 @@
 }
 .cup {
     margin: 0 auto;
-    margin-top: 185px;
+    margin-top: 240px;
     margin-left: -50px;
     content: " ";
     background-color: transparent;
